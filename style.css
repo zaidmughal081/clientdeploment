@@ -1,0 +1,107 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+html{
+    scroll-behavior: smooth;}
+
+header {
+    background-color: rgb(163, 6, 6);
+    color: black;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+margin: auto;
+margin-left: 500px;
+font-family: 'EB Garamond', serif;
+font-size: 20px;
+border:5px solid black ;
+box-shadow: 2px 2px 5px;
+padding: 5px 5px;
+
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+nav ul li a {
+    border:5px solid black ;
+    box-shadow: 2px 2px 5px;
+    padding: 5px 5px;
+    
+    }
+
+section {
+    padding: 2em;
+    color: white;
+}
+
+.hero {
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.menu-item {
+    margin-bottom: 20px;
+}
+#menu-color{
+    text-align: center;
+    border: 5px solid red;
+    box-shadow: 2px 2px 5px red;
+    padding: 3px 3px;
+}
+#about-color{
+    text-align: center;
+    border: 5px solid red;
+    box-shadow: 2px 2px 5px red;
+    padding: 3px 3px;
+
+}
+#id-color{
+    text-align: center;
+    border: 5px solid red;
+    box-shadow: 2px 2px 5px red;
+    padding: 3px 3px;
+
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    transition: transform 0.5s;
+}
+.social-icons a :hover{
+    
+    transform: translateY(-10px);
+}
+footer {
+    background-color: rgb(163,6, 6);
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
